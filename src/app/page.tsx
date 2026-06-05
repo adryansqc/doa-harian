@@ -177,7 +177,7 @@ export default function Home() {
               wordBreak: "break-all",
             }}
           >
-            {process.env.NEXT_PUBLIC_BASE_URL ?? "https://your-domain.vercel.app"}
+            {process.env.NEXT_PUBLIC_BASE_URL ?? "https://doa-harian.vercel.app"}
           </div>
         </section>
 
