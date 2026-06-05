@@ -19,13 +19,13 @@ export { kategoriList } from "./kategori";
 export type { Doa, Kategori } from "./types";
 
 export const doaList = [
+  ...doaAsmaulHusna,
   ...doaPagi,
   ...doaSore,
   ...doaMalam,
   ...doaMakan,
   ...doaAktivitas,
   ...doaPerlindungan,
-  ...doaAsmaulHusna,
 
   // Tambah kategori baru di sini:
   // ...doaSakit,

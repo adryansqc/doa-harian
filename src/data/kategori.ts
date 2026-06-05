@@ -8,11 +8,11 @@ import type { Kategori } from "./types";
 // ─────────────────────────────────────────────────────────────
 
 export const kategoriList: Kategori[] = [
+  { id: "asmaulHusna", label: "Asmaul Husna" },
   { id: "pagi",         label: "Doa Pagi Hari" },
   { id: "sore",         label: "Doa Sore Hari" },
   { id: "malam",        label: "Doa Malam & Tidur" },
   { id: "makan",        label: "Doa Makan & Minum" },
   { id: "aktivitas",    label: "Doa Aktivitas Harian" },
   { id: "perlindungan", label: "Doa Perlindungan" },
-  { id: "asmaulHusna", label: "Asmaul Husna" },
 ];
