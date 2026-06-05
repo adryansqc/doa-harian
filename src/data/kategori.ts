@@ -14,4 +14,5 @@ export const kategoriList: Kategori[] = [
   { id: "makan",        label: "Doa Makan & Minum" },
   { id: "aktivitas",    label: "Doa Aktivitas Harian" },
   { id: "perlindungan", label: "Doa Perlindungan" },
+  { id: "asmaulHusna", label: "Asmaul Husna" },
 ];

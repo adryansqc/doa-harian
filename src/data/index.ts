@@ -13,6 +13,7 @@ import { doaMalam }       from "./doa/malam";
 import { doaMakan }       from "./doa/makan";
 import { doaAktivitas }   from "./doa/aktivitas";
 import { doaPerlindungan } from "./doa/perlindungan";
+import { doaAsmaulHusna } from "./doa/asmaulHusna";
 
 export { kategoriList } from "./kategori";
 export type { Doa, Kategori } from "./types";
@@ -24,6 +25,7 @@ export const doaList = [
   ...doaMakan,
   ...doaAktivitas,
   ...doaPerlindungan,
+  ...doaAsmaulHusna,
 
   // Tambah kategori baru di sini:
   // ...doaSakit,
